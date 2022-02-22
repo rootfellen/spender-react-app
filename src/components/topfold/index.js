@@ -35,8 +35,7 @@ const TopFold = () => {
   };
   return (
     <TopFoldContainer>
-      {window.location.pathname ===
-      "https://rootfellen.github.io/spender-react-app" ? (
+      {window.location.pathname === "/" ? (
         <TopFoldWrap>
           <TopFoldSearchBar>
             <SearchIcon
