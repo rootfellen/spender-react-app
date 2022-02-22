@@ -25,7 +25,7 @@ const Header = () => {
           </HeaderLogo>
           <HeaderButton>
             <HeaderButtonLink
-              href="https://github.com"
+              href="https://github.com/rootfellen"
               target="_blank"
               rel="noopener noreferrer"
             >
