@@ -9,8 +9,12 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} exact />
-        <Route path="/add-expenses" element={<AddExpense />} exact />
+        <Route
+          path="https://rootfellen.github.io/spender-react-app"
+          element={<Home />}
+          exact
+        />
+        <Route path="/add-expenses" element={<AddExpense />} />
       </Routes>
       <Footer />
     </Router>
